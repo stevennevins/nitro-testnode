@@ -62,6 +62,7 @@ services:
       - --http
       - --datadir=/datadir
       - --http.addr=0.0.0.0
+      - --graphql
       - --authrpc.vhosts=*
       - --authrpc.port=8551
       - --authrpc.addr=0.0.0.0
